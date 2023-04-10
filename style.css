@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --fonte-principal: Delicious Handrawn;
+   
+}
+
+body {
+    background-image: url("background.jpg");
+}
+
+#logotransparente {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-bottom: 5%;
+}
+
+#loginform {
+    text-align: center;
+}
+
+#usernameletra {
+    font-family: var(--fonte-principal);
+    font-size: 200%;
+    
+}
+
+#passwordletra {
+    font-family: var(--fonte-principal);
+    font-size: 200%;
+   
+}
+
+#botaosubmit {
+ 
+    font-family: var(--fonte-principal);
+    font-size: 150%;
+    font-weight: 800;
+    padding: 1%;
+    background-color: aquamarine;
+   
+}
+
+#forgotpassword {
+    margin-top: 1%;
+    font-family: var(--fonte-principal);
+    font-size: 150%;
+}
+
+#createaccount {
+    font-family: var(--fonte-principal);
+    font-size: 150%;
+}
+
+#footer {
+    padding: 1%;
+    background-color:bisque;
+    margin-top: 6%;
+    font-family: var(--fonte-principal);
+}
+
+#footerimage {
+width: 8%;
+padding-left: 50%;
+}
