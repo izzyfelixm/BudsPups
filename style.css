@@ -74,20 +74,43 @@ body {
 #hr1 {
     border-top: 4px dashed white;
     margin-top: 1%;
+    padding-top: 1%;
+}
+
+#rainytalksdiv {
+    display: flex;
+    background-color: #faebd7;
+    margin-top: 1%;
+    padding-top: 2%;
+    
 }
 
 #budspupsimage1 {
-    width: 30%;
+    width: 10%;
     display: block;
-    margin-left: auto;
+    margin-left: 15%;
     margin-right: auto;
     margin-bottom: 3%;
+}
+
+#rainytalks {
+    font-family: var(--fonte-principal);
+    margin-right:48%;
+    font-size: 200%;
+}
+
+#h2estifera {
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-size: 300%;   
+    padding-top: 5%;
 }
 
 #h1map {
     text-align: center;
     font-family: var(--fonte-principal);
-    margin-top: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: 500%;
 }
 
@@ -159,4 +182,32 @@ body {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
+  }
+    
+  .firey {
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    width: 3%;
+  }
+
+  .nabey {
+    position: absolute;
+    top: 190%;
+    left: 40%;
+    width: 5%;
+  }
+
+  .shroomney {
+    position: absolute;
+    top: 240%;
+    left: 80%;
+    width: 3%;
+  }
+
+  .tisuney {
+    position: absolute;
+    top: 240%;
+    left: 12%;
+    width: 6%;
   }
