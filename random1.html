@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Look What You Found!</title>  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script>
+    function getRandomImage() {
+    var randomImage = new Array();
+
+    randomImage[0] = "nabeysemfundo.png";
+ 
+    var number = Math.floor(Math.random()*randomImage.length);
+    document.getElementById("result").innerHTML = '<img src="'+randomImage[number]+'" />';
+    const botao = document.getElementById("randomgenerator");
+    botao.hidden = true;
+    }
+    </script>
+</head>
+<header>
+    <div class="container">
+        <img src="fundobanner.jpg" style="width:100%;">
+        <a href="https://budspups.com"><div class="home">HOME</div></a>
+        <a href="https://budspups.com"><div class="map">MAP</div></a>
+        <a href="https://budspups.com"><div class="farm">FARM</div></a>
+      </div>
+</header>
+
+<body>
+    <button id="randomgenerator" onclick = "getRandomImage()"> Look What You Found! :O </button>
+    <span id="result"></span> 
+</body>  
+    </html>
+    

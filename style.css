@@ -211,3 +211,40 @@ body {
     left: 12%;
     width: 6%;
   }
+
+  .h2grass{
+    font-family: var(--fonte-principal);
+    font-size: 300%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+
+  #grassmap1 {
+    padding-left: 15%;
+  }
+
+  #randomgenerator {
+    margin-left: 40%;
+    margin-top: 5%;
+    font-family: var(--fonte-principal);
+    font-size: 200%;
+    background-color: aquamarine;
+  }
+
+  #result {
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 5%;
+  }
+
+  #nothing {
+    margin-top: 5%;
+    font-family: var(--fonte-principal);
+    font-size: 200%;
+    background-color: antiquewhite;
+    padding:5%;
+    text-align: center;
+  }
